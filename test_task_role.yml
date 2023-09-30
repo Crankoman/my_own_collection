@@ -1,0 +1,5 @@
+---
+- name: test task role my_own_module
+  hosts: localhost
+  roles:
+    role: my_own_module
